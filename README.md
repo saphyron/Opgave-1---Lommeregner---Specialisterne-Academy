@@ -10,22 +10,22 @@ En lille C#-lommeregner med både **konsol-UI** og **Windows UI (WinForms)**. Pr
 - Trigonometriske funktioner (grader): sin, cos, tan
 - Konsol-UI _og_ WinForms-UI i samme projekt (`--ui` flag)
 
-## Projektstruktur
-Lommeregner/
-├─ Program.cs
-├─ Lommeregner.csproj
-├─ src/
-│ ├─ Model/
-│ │ └─ Lommeregner.cs # Calculator
-│ ├─ Konsol App/
-│ │ └─ KonsolApp.cs # Konsol UI
-│ └─ Windows GUI/
-│ └─ MainGUI.cs # WinForms UI
-├─ docfx.json # DocFX konfiguration (tilføjes)
-├─ index.md # Forside til docs (tilføjes)
-├─ api/
-│ └─ index.md # API-forside (tilføjes)
-└─ toc.yml # Docs TOC (tilføjes)
+📦 Lommeregner
+├─ ⚙️ Lommeregner.csproj
+├─ 🧩 Program.cs
+├─ 📁 src
+│  ├─ 📁 Model
+│  │  └─ 🧩 Lommeregner.cs       # Calculator
+│  ├─ 📁 Konsol App
+│  │  └─ 🧩 KonsolApp.cs         # Konsol UI
+│  └─ 📁 Windows GUI
+│     └─ 🧩 MainGUI.cs           # WinForms UI
+├─ 📄 docfx.json                 # DocFX konfiguration (tilføjes)
+├─ 📝 index.md                   # Forside til docs (tilføjes)
+├─ 📁 api
+│  └─ 📝 index.md                # API-forside (tilføjes)
+└─ 🧭 toc.yml                    # Docs TOC (tilføjes)
+
 
 
 > **Bemærk:** Sørg for at din `.csproj` har `<GenerateDocumentationFile>true</GenerateDocumentationFile>` (det er det i denne skabelon).
