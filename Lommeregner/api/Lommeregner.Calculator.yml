@@ -1,0 +1,918 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lommeregner.Calculator
+  commentId: T:Lommeregner.Calculator
+  id: Calculator
+  parent: Lommeregner
+  children:
+  - Lommeregner.Calculator.Add(System.Double,System.Double)
+  - Lommeregner.Calculator.Cosine(System.Double)
+  - Lommeregner.Calculator.Divide(System.Double,System.Double)
+  - Lommeregner.Calculator.Factorial(System.Int32)
+  - Lommeregner.Calculator.Logarithm(System.Double,System.Double)
+  - Lommeregner.Calculator.Modulus(System.Double,System.Double)
+  - Lommeregner.Calculator.Multiply(System.Double,System.Double)
+  - Lommeregner.Calculator.NaturalLogarithm(System.Double)
+  - Lommeregner.Calculator.Percentage(System.Double,System.Double)
+  - Lommeregner.Calculator.Power(System.Double,System.Double)
+  - Lommeregner.Calculator.Sine(System.Double)
+  - Lommeregner.Calculator.SquareRoot(System.Double)
+  - Lommeregner.Calculator.Subtract(System.Double,System.Double)
+  - Lommeregner.Calculator.Tangent(System.Double)
+  - Lommeregner.Calculator.execution(System.String,System.Double,System.Double)
+  langs:
+  - csharp
+  - vb
+  name: Calculator
+  nameWithType: Calculator
+  fullName: Lommeregner.Calculator
+  type: Class
+  source:
+    id: Calculator
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 7
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  summary: Simpel lommeregner med basale aritmetiske, trigonometriske og logaritmiske funktioner.
+  example: []
+  syntax:
+    content: public class Calculator
+    content.vb: Public Class Calculator
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  - System.Object.ToString
+- uid: Lommeregner.Calculator.Add(System.Double,System.Double)
+  commentId: M:Lommeregner.Calculator.Add(System.Double,System.Double)
+  id: Add(System.Double,System.Double)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Add(double, double)
+  nameWithType: Calculator.Add(double, double)
+  fullName: Lommeregner.Calculator.Add(double, double)
+  type: Method
+  source:
+    id: Add
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 9
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  syntax:
+    content: public double Add(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function Add(a As Double, b As Double) As Double
+  overload: Lommeregner.Calculator.Add*
+  nameWithType.vb: Calculator.Add(Double, Double)
+  fullName.vb: Lommeregner.Calculator.Add(Double, Double)
+  name.vb: Add(Double, Double)
+- uid: Lommeregner.Calculator.Subtract(System.Double,System.Double)
+  commentId: M:Lommeregner.Calculator.Subtract(System.Double,System.Double)
+  id: Subtract(System.Double,System.Double)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Subtract(double, double)
+  nameWithType: Calculator.Subtract(double, double)
+  fullName: Lommeregner.Calculator.Subtract(double, double)
+  type: Method
+  source:
+    id: Subtract
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 14
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  syntax:
+    content: public double Subtract(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function Subtract(a As Double, b As Double) As Double
+  overload: Lommeregner.Calculator.Subtract*
+  nameWithType.vb: Calculator.Subtract(Double, Double)
+  fullName.vb: Lommeregner.Calculator.Subtract(Double, Double)
+  name.vb: Subtract(Double, Double)
+- uid: Lommeregner.Calculator.Multiply(System.Double,System.Double)
+  commentId: M:Lommeregner.Calculator.Multiply(System.Double,System.Double)
+  id: Multiply(System.Double,System.Double)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Multiply(double, double)
+  nameWithType: Calculator.Multiply(double, double)
+  fullName: Lommeregner.Calculator.Multiply(double, double)
+  type: Method
+  source:
+    id: Multiply
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 19
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  syntax:
+    content: public double Multiply(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function Multiply(a As Double, b As Double) As Double
+  overload: Lommeregner.Calculator.Multiply*
+  nameWithType.vb: Calculator.Multiply(Double, Double)
+  fullName.vb: Lommeregner.Calculator.Multiply(Double, Double)
+  name.vb: Multiply(Double, Double)
+- uid: Lommeregner.Calculator.Divide(System.Double,System.Double)
+  commentId: M:Lommeregner.Calculator.Divide(System.Double,System.Double)
+  id: Divide(System.Double,System.Double)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Divide(double, double)
+  nameWithType: Calculator.Divide(double, double)
+  fullName: Lommeregner.Calculator.Divide(double, double)
+  type: Method
+  source:
+    id: Divide
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 24
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  syntax:
+    content: public double Divide(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function Divide(a As Double, b As Double) As Double
+  overload: Lommeregner.Calculator.Divide*
+  nameWithType.vb: Calculator.Divide(Double, Double)
+  fullName.vb: Lommeregner.Calculator.Divide(Double, Double)
+  name.vb: Divide(Double, Double)
+- uid: Lommeregner.Calculator.Power(System.Double,System.Double)
+  commentId: M:Lommeregner.Calculator.Power(System.Double,System.Double)
+  id: Power(System.Double,System.Double)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Power(double, double)
+  nameWithType: Calculator.Power(double, double)
+  fullName: Lommeregner.Calculator.Power(double, double)
+  type: Method
+  source:
+    id: Power
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 30
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  syntax:
+    content: public double Power(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function Power(a As Double, b As Double) As Double
+  overload: Lommeregner.Calculator.Power*
+  nameWithType.vb: Calculator.Power(Double, Double)
+  fullName.vb: Lommeregner.Calculator.Power(Double, Double)
+  name.vb: Power(Double, Double)
+- uid: Lommeregner.Calculator.SquareRoot(System.Double)
+  commentId: M:Lommeregner.Calculator.SquareRoot(System.Double)
+  id: SquareRoot(System.Double)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: SquareRoot(double)
+  nameWithType: Calculator.SquareRoot(double)
+  fullName: Lommeregner.Calculator.SquareRoot(double)
+  type: Method
+  source:
+    id: SquareRoot
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 34
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  syntax:
+    content: public double SquareRoot(double a)
+    parameters:
+    - id: a
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function SquareRoot(a As Double) As Double
+  overload: Lommeregner.Calculator.SquareRoot*
+  nameWithType.vb: Calculator.SquareRoot(Double)
+  fullName.vb: Lommeregner.Calculator.SquareRoot(Double)
+  name.vb: SquareRoot(Double)
+- uid: Lommeregner.Calculator.Percentage(System.Double,System.Double)
+  commentId: M:Lommeregner.Calculator.Percentage(System.Double,System.Double)
+  id: Percentage(System.Double,System.Double)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Percentage(double, double)
+  nameWithType: Calculator.Percentage(double, double)
+  fullName: Lommeregner.Calculator.Percentage(double, double)
+  type: Method
+  source:
+    id: Percentage
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 40
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  syntax:
+    content: public double Percentage(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function Percentage(a As Double, b As Double) As Double
+  overload: Lommeregner.Calculator.Percentage*
+  nameWithType.vb: Calculator.Percentage(Double, Double)
+  fullName.vb: Lommeregner.Calculator.Percentage(Double, Double)
+  name.vb: Percentage(Double, Double)
+- uid: Lommeregner.Calculator.Factorial(System.Int32)
+  commentId: M:Lommeregner.Calculator.Factorial(System.Int32)
+  id: Factorial(System.Int32)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Factorial(int)
+  nameWithType: Calculator.Factorial(int)
+  fullName: Lommeregner.Calculator.Factorial(int)
+  type: Method
+  source:
+    id: Factorial
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 45
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  syntax:
+    content: public double Factorial(int n)
+    parameters:
+    - id: n
+      type: System.Int32
+    return:
+      type: System.Double
+    content.vb: Public Function Factorial(n As Integer) As Double
+  overload: Lommeregner.Calculator.Factorial*
+  nameWithType.vb: Calculator.Factorial(Integer)
+  fullName.vb: Lommeregner.Calculator.Factorial(Integer)
+  name.vb: Factorial(Integer)
+- uid: Lommeregner.Calculator.Modulus(System.Double,System.Double)
+  commentId: M:Lommeregner.Calculator.Modulus(System.Double,System.Double)
+  id: Modulus(System.Double,System.Double)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Modulus(double, double)
+  nameWithType: Calculator.Modulus(double, double)
+  fullName: Lommeregner.Calculator.Modulus(double, double)
+  type: Method
+  source:
+    id: Modulus
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 58
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  syntax:
+    content: public double Modulus(double a, double b)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: b
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function Modulus(a As Double, b As Double) As Double
+  overload: Lommeregner.Calculator.Modulus*
+  nameWithType.vb: Calculator.Modulus(Double, Double)
+  fullName.vb: Lommeregner.Calculator.Modulus(Double, Double)
+  name.vb: Modulus(Double, Double)
+- uid: Lommeregner.Calculator.Logarithm(System.Double,System.Double)
+  commentId: M:Lommeregner.Calculator.Logarithm(System.Double,System.Double)
+  id: Logarithm(System.Double,System.Double)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Logarithm(double, double)
+  nameWithType: Calculator.Logarithm(double, double)
+  fullName: Lommeregner.Calculator.Logarithm(double, double)
+  type: Method
+  source:
+    id: Logarithm
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 64
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  syntax:
+    content: public double Logarithm(double a, double baseValue)
+    parameters:
+    - id: a
+      type: System.Double
+    - id: baseValue
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function Logarithm(a As Double, baseValue As Double) As Double
+  overload: Lommeregner.Calculator.Logarithm*
+  nameWithType.vb: Calculator.Logarithm(Double, Double)
+  fullName.vb: Lommeregner.Calculator.Logarithm(Double, Double)
+  name.vb: Logarithm(Double, Double)
+- uid: Lommeregner.Calculator.NaturalLogarithm(System.Double)
+  commentId: M:Lommeregner.Calculator.NaturalLogarithm(System.Double)
+  id: NaturalLogarithm(System.Double)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: NaturalLogarithm(double)
+  nameWithType: Calculator.NaturalLogarithm(double)
+  fullName: Lommeregner.Calculator.NaturalLogarithm(double)
+  type: Method
+  source:
+    id: NaturalLogarithm
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 70
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  syntax:
+    content: public double NaturalLogarithm(double a)
+    parameters:
+    - id: a
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function NaturalLogarithm(a As Double) As Double
+  overload: Lommeregner.Calculator.NaturalLogarithm*
+  nameWithType.vb: Calculator.NaturalLogarithm(Double)
+  fullName.vb: Lommeregner.Calculator.NaturalLogarithm(Double)
+  name.vb: NaturalLogarithm(Double)
+- uid: Lommeregner.Calculator.Sine(System.Double)
+  commentId: M:Lommeregner.Calculator.Sine(System.Double)
+  id: Sine(System.Double)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Sine(double)
+  nameWithType: Calculator.Sine(double)
+  fullName: Lommeregner.Calculator.Sine(double)
+  type: Method
+  source:
+    id: Sine
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 76
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  syntax:
+    content: public double Sine(double angleInDegrees)
+    parameters:
+    - id: angleInDegrees
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function Sine(angleInDegrees As Double) As Double
+  overload: Lommeregner.Calculator.Sine*
+  nameWithType.vb: Calculator.Sine(Double)
+  fullName.vb: Lommeregner.Calculator.Sine(Double)
+  name.vb: Sine(Double)
+- uid: Lommeregner.Calculator.Cosine(System.Double)
+  commentId: M:Lommeregner.Calculator.Cosine(System.Double)
+  id: Cosine(System.Double)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Cosine(double)
+  nameWithType: Calculator.Cosine(double)
+  fullName: Lommeregner.Calculator.Cosine(double)
+  type: Method
+  source:
+    id: Cosine
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 81
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  syntax:
+    content: public double Cosine(double angleInDegrees)
+    parameters:
+    - id: angleInDegrees
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function Cosine(angleInDegrees As Double) As Double
+  overload: Lommeregner.Calculator.Cosine*
+  nameWithType.vb: Calculator.Cosine(Double)
+  fullName.vb: Lommeregner.Calculator.Cosine(Double)
+  name.vb: Cosine(Double)
+- uid: Lommeregner.Calculator.Tangent(System.Double)
+  commentId: M:Lommeregner.Calculator.Tangent(System.Double)
+  id: Tangent(System.Double)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Tangent(double)
+  nameWithType: Calculator.Tangent(double)
+  fullName: Lommeregner.Calculator.Tangent(double)
+  type: Method
+  source:
+    id: Tangent
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 86
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  syntax:
+    content: public double Tangent(double angleInDegrees)
+    parameters:
+    - id: angleInDegrees
+      type: System.Double
+    return:
+      type: System.Double
+    content.vb: Public Function Tangent(angleInDegrees As Double) As Double
+  overload: Lommeregner.Calculator.Tangent*
+  nameWithType.vb: Calculator.Tangent(Double)
+  fullName.vb: Lommeregner.Calculator.Tangent(Double)
+  name.vb: Tangent(Double)
+- uid: Lommeregner.Calculator.execution(System.String,System.Double,System.Double)
+  commentId: M:Lommeregner.Calculator.execution(System.String,System.Double,System.Double)
+  id: execution(System.String,System.Double,System.Double)
+  parent: Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: execution(string, double, double)
+  nameWithType: Calculator.execution(string, double, double)
+  fullName: Lommeregner.Calculator.execution(string, double, double)
+  type: Method
+  source:
+    id: execution
+    path: C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\src\Model\Lommeregner.cs
+    startLine: 101
+  assemblies:
+  - Lommeregner
+  namespace: Lommeregner
+  summary: >-
+    Udfører en navngiven operation med to argumenter (unære operationer ignorerer <code class="paramref">b</code>).
+
+    Understøtter både fulde og korte aliasser (fx <code>multiply</code>/<code>mul</code>, <code>naturalLogarithm</code>/<code>ln</code>).
+  example: []
+  syntax:
+    content: public double execution(string operation, double a, double b)
+    parameters:
+    - id: operation
+      type: System.String
+      description: Navnet/alias på operationen (fx "add", "subtract", "sqrt", "ln").
+    - id: a
+      type: System.Double
+      description: Første argument. For unære operationer bruges kun dette.
+    - id: b
+      type: System.Double
+      description: Andet argument. Ignoreres for unære operationer som <code>sqrt</code>, <code>ln</code>, <code>sine</code> osv.
+    return:
+      type: System.Double
+      description: Resultatet af den valgte operation.
+    content.vb: Public Function execution(operation As String, a As Double, b As Double) As Double
+  overload: Lommeregner.Calculator.execution*
+  exceptions:
+  - type: System.ArgumentNullException
+    commentId: T:System.ArgumentNullException
+    description: Hvis <code class="paramref">operation</code> er null.
+  - type: System.InvalidOperationException
+    commentId: T:System.InvalidOperationException
+    description: Hvis operationen ikke genkendes.
+  nameWithType.vb: Calculator.execution(String, Double, Double)
+  fullName.vb: Lommeregner.Calculator.execution(String, Double, Double)
+  name.vb: execution(String, Double, Double)
+references:
+- uid: Lommeregner
+  commentId: N:Lommeregner
+  href: Lommeregner.html
+  name: Lommeregner
+  nameWithType: Lommeregner
+  fullName: Lommeregner
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object
+  name: object
+  nameWithType: object
+  fullName: object
+  nameWithType.vb: Object
+  fullName.vb: Object
+  name.vb: Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  name: Equals(object)
+  nameWithType: object.Equals(object)
+  fullName: object.Equals(object)
+  nameWithType.vb: Object.Equals(Object)
+  fullName.vb: Object.Equals(Object)
+  name.vb: Equals(Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  name: Equals(object, object)
+  nameWithType: object.Equals(object, object)
+  fullName: object.Equals(object, object)
+  nameWithType.vb: Object.Equals(Object, Object)
+  fullName.vb: Object.Equals(Object, Object)
+  name.vb: Equals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.equals#system-object-equals(system-object-system-object)
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  name: GetHashCode()
+  nameWithType: object.GetHashCode()
+  fullName: object.GetHashCode()
+  nameWithType.vb: Object.GetHashCode()
+  fullName.vb: Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gethashcode
+  - name: (
+  - name: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  name: GetType()
+  nameWithType: object.GetType()
+  fullName: object.GetType()
+  nameWithType.vb: Object.GetType()
+  fullName.vb: Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.gettype
+  - name: (
+  - name: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  name: MemberwiseClone()
+  nameWithType: object.MemberwiseClone()
+  fullName: object.MemberwiseClone()
+  nameWithType.vb: Object.MemberwiseClone()
+  fullName.vb: Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.memberwiseclone
+  - name: (
+  - name: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  name: ReferenceEquals(object, object)
+  nameWithType: object.ReferenceEquals(object, object)
+  fullName: object.ReferenceEquals(object, object)
+  nameWithType.vb: Object.ReferenceEquals(Object, Object)
+  fullName.vb: Object.ReferenceEquals(Object, Object)
+  name.vb: ReferenceEquals(Object, Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.referenceequals
+  - name: (
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: ','
+  - name: " "
+  - uid: System.Object
+    name: Object
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object
+  - name: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  name: ToString()
+  nameWithType: object.ToString()
+  fullName: object.ToString()
+  nameWithType.vb: Object.ToString()
+  fullName.vb: Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    isExternal: true
+    href: https://learn.microsoft.com/dotnet/api/system.object.tostring
+  - name: (
+  - name: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Lommeregner.Calculator.Add*
+  commentId: Overload:Lommeregner.Calculator.Add
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_Add_System_Double_System_Double_
+  name: Add
+  nameWithType: Calculator.Add
+  fullName: Lommeregner.Calculator.Add
+- uid: System.Double
+  commentId: T:System.Double
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.double
+  name: double
+  nameWithType: double
+  fullName: double
+  nameWithType.vb: Double
+  fullName.vb: Double
+  name.vb: Double
+- uid: Lommeregner.Calculator.Subtract*
+  commentId: Overload:Lommeregner.Calculator.Subtract
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_Subtract_System_Double_System_Double_
+  name: Subtract
+  nameWithType: Calculator.Subtract
+  fullName: Lommeregner.Calculator.Subtract
+- uid: Lommeregner.Calculator.Multiply*
+  commentId: Overload:Lommeregner.Calculator.Multiply
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_Multiply_System_Double_System_Double_
+  name: Multiply
+  nameWithType: Calculator.Multiply
+  fullName: Lommeregner.Calculator.Multiply
+- uid: Lommeregner.Calculator.Divide*
+  commentId: Overload:Lommeregner.Calculator.Divide
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_Divide_System_Double_System_Double_
+  name: Divide
+  nameWithType: Calculator.Divide
+  fullName: Lommeregner.Calculator.Divide
+- uid: Lommeregner.Calculator.Power*
+  commentId: Overload:Lommeregner.Calculator.Power
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_Power_System_Double_System_Double_
+  name: Power
+  nameWithType: Calculator.Power
+  fullName: Lommeregner.Calculator.Power
+- uid: Lommeregner.Calculator.SquareRoot*
+  commentId: Overload:Lommeregner.Calculator.SquareRoot
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_SquareRoot_System_Double_
+  name: SquareRoot
+  nameWithType: Calculator.SquareRoot
+  fullName: Lommeregner.Calculator.SquareRoot
+- uid: Lommeregner.Calculator.Percentage*
+  commentId: Overload:Lommeregner.Calculator.Percentage
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_Percentage_System_Double_System_Double_
+  name: Percentage
+  nameWithType: Calculator.Percentage
+  fullName: Lommeregner.Calculator.Percentage
+- uid: Lommeregner.Calculator.Factorial*
+  commentId: Overload:Lommeregner.Calculator.Factorial
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_Factorial_System_Int32_
+  name: Factorial
+  nameWithType: Calculator.Factorial
+  fullName: Lommeregner.Calculator.Factorial
+- uid: System.Int32
+  commentId: T:System.Int32
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.int32
+  name: int
+  nameWithType: int
+  fullName: int
+  nameWithType.vb: Integer
+  fullName.vb: Integer
+  name.vb: Integer
+- uid: Lommeregner.Calculator.Modulus*
+  commentId: Overload:Lommeregner.Calculator.Modulus
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_Modulus_System_Double_System_Double_
+  name: Modulus
+  nameWithType: Calculator.Modulus
+  fullName: Lommeregner.Calculator.Modulus
+- uid: Lommeregner.Calculator.Logarithm*
+  commentId: Overload:Lommeregner.Calculator.Logarithm
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_Logarithm_System_Double_System_Double_
+  name: Logarithm
+  nameWithType: Calculator.Logarithm
+  fullName: Lommeregner.Calculator.Logarithm
+- uid: Lommeregner.Calculator.NaturalLogarithm*
+  commentId: Overload:Lommeregner.Calculator.NaturalLogarithm
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_NaturalLogarithm_System_Double_
+  name: NaturalLogarithm
+  nameWithType: Calculator.NaturalLogarithm
+  fullName: Lommeregner.Calculator.NaturalLogarithm
+- uid: Lommeregner.Calculator.Sine*
+  commentId: Overload:Lommeregner.Calculator.Sine
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_Sine_System_Double_
+  name: Sine
+  nameWithType: Calculator.Sine
+  fullName: Lommeregner.Calculator.Sine
+- uid: Lommeregner.Calculator.Cosine*
+  commentId: Overload:Lommeregner.Calculator.Cosine
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_Cosine_System_Double_
+  name: Cosine
+  nameWithType: Calculator.Cosine
+  fullName: Lommeregner.Calculator.Cosine
+- uid: Lommeregner.Calculator.Tangent*
+  commentId: Overload:Lommeregner.Calculator.Tangent
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_Tangent_System_Double_
+  name: Tangent
+  nameWithType: Calculator.Tangent
+  fullName: Lommeregner.Calculator.Tangent
+- uid: System.ArgumentNullException
+  commentId: T:System.ArgumentNullException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.argumentnullexception
+  name: ArgumentNullException
+  nameWithType: ArgumentNullException
+  fullName: System.ArgumentNullException
+- uid: System.InvalidOperationException
+  commentId: T:System.InvalidOperationException
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.invalidoperationexception
+  name: InvalidOperationException
+  nameWithType: InvalidOperationException
+  fullName: System.InvalidOperationException
+- uid: Lommeregner.Calculator.execution*
+  commentId: Overload:Lommeregner.Calculator.execution
+  href: Lommeregner.Calculator.html#Lommeregner_Calculator_execution_System_String_System_Double_System_Double_
+  name: execution
+  nameWithType: Calculator.execution
+  fullName: Lommeregner.Calculator.execution
+- uid: System.String
+  commentId: T:System.String
+  parent: System
+  isExternal: true
+  href: https://learn.microsoft.com/dotnet/api/system.string
+  name: string
+  nameWithType: string
+  fullName: string
+  nameWithType.vb: String
+  fullName.vb: String
+  name.vb: String

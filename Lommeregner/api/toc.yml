@@ -1,0 +1,24 @@
+### YamlMime:TableOfContent
+items:
+- uid: Lommeregner
+  name: Lommeregner
+  type: Namespace
+  items:
+  - uid: Lommeregner.Calculator
+    name: Calculator
+    type: Class
+- uid: Lommeregner.Konsol_App
+  name: Lommeregner.Konsol_App
+  type: Namespace
+  items:
+  - uid: Lommeregner.Konsol_App.KonsolApp
+    name: KonsolApp
+    type: Class
+- uid: Lommeregner.Windows_GUI
+  name: Lommeregner.Windows_GUI
+  type: Namespace
+  items:
+  - uid: Lommeregner.Windows_GUI.MainGUI
+    name: MainGUI
+    type: Class
+memberLayout: SamePage

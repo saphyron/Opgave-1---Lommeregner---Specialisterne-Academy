@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lommeregner
+  commentId: N:Lommeregner
+  id: Lommeregner
+  children:
+  - Lommeregner.Calculator
+  langs:
+  - csharp
+  - vb
+  name: Lommeregner
+  nameWithType: Lommeregner
+  fullName: Lommeregner
+  type: Namespace
+  assemblies:
+  - Lommeregner
+references:
+- uid: Lommeregner.Calculator
+  commentId: T:Lommeregner.Calculator
+  href: Lommeregner.Calculator.html
+  name: Calculator
+  nameWithType: Calculator
+  fullName: Lommeregner.Calculator

@@ -1,0 +1,104 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Lommeregner</name>
+    </assembly>
+    <members>
+        <member name="T:Lommeregner.Program">
+            <summary>
+            Programindgangspunkt der vælger mellem konsol-UI og Windows-UI baseret på argumenter.
+            </summary>
+        </member>
+        <member name="M:Lommeregner.Program.Main(System.String[])">
+            <summary>
+            Main. Brug <c>--ui</c> eller <c>-ui</c> for at starte Windows-UI; ellers startes konsol-UI.
+            </summary>
+            <param name="args">Kommandolinjeargumenter.</param>
+        </member>
+        <member name="T:Lommeregner.Konsol_App.KonsolApp">
+            <summary>
+            Konsol-baseret brugerflade for lommeregneren.
+            Viser en menustyret oplevelse og kalder <see cref="M:Lommeregner.Calculator.execution(System.String,System.Double,System.Double)"/>.
+            </summary>
+        </member>
+        <member name="F:Lommeregner.Konsol_App.KonsolApp.Ops">
+            <summary>
+            Mapping fra menupunkt til operation, antal argumenter og inputkrav.
+            </summary>
+        </member>
+        <member name="M:Lommeregner.Konsol_App.KonsolApp.Run">
+            <summary>
+            Starter konsol-UI’et. Skriv <c>--ui</c> i menuen for at åbne Windows-UI fra samme proces.
+            </summary>
+        </member>
+        <member name="M:Lommeregner.Konsol_App.KonsolApp.ReadDouble(System.String)">
+            <summary>
+            Læser et flydende tal fra konsollen. Accepterer både dansk og invariant format.
+            </summary>
+        </member>
+        <member name="M:Lommeregner.Konsol_App.KonsolApp.ReadInt(System.String)">
+            <summary>
+            Læser et heltal fra konsollen (invariant kultur).
+            </summary>
+        </member>
+        <member name="T:Lommeregner.Calculator">
+            <summary>
+            Simpel lommeregner med basale aritmetiske, trigonometriske og logaritmiske funktioner.
+            </summary>
+        </member>
+        <member name="M:Lommeregner.Calculator.execution(System.String,System.Double,System.Double)">
+            <summary>
+            Udfører en navngiven operation med to argumenter (unære operationer ignorerer <paramref name="b"/>).
+            Understøtter både fulde og korte aliasser (fx <c>multiply</c>/<c>mul</c>, <c>naturalLogarithm</c>/<c>ln</c>).
+            </summary>
+            <param name="operation">Navnet/alias på operationen (fx "add", "subtract", "sqrt", "ln").</param>
+            <param name="a">Første argument. For unære operationer bruges kun dette.</param>
+            <param name="b">Andet argument. Ignoreres for unære operationer som <c>sqrt</c>, <c>ln</c>, <c>sine</c> osv.</param>
+            <returns>Resultatet af den valgte operation.</returns>
+            <exception cref="T:System.ArgumentNullException">Hvis <paramref name="operation"/> er null.</exception>
+            <exception cref="T:System.InvalidOperationException">Hvis operationen ikke genkendes.</exception>
+        </member>
+        <member name="T:Lommeregner.Windows_GUI.MainGUI">
+            <summary>
+            Windows Forms-brugerflade for lommeregneren med to inputfelter, valg af operation og resultatvisning.
+            </summary>
+        </member>
+        <member name="F:Lommeregner.Windows_GUI.MainGUI.OpMap">
+            <summary>
+            Opslagstabel fra UI-tekst til operation, antal argumenter, om heltal kræves samt hjælpetekst.
+            </summary>
+        </member>
+        <member name="M:Lommeregner.Windows_GUI.MainGUI.#ctor">
+            <summary>
+            Initialiserer og opbygger UI-komponenterne.
+            </summary>
+        </member>
+        <member name="M:Lommeregner.Windows_GUI.MainGUI.Calculate">
+            <summary>
+            Læser input fra felterne, udfører valgt operation via modellen og viser resultatet.
+            </summary>
+        </member>
+        <member name="M:Lommeregner.Windows_GUI.MainGUI.BuildArgs(System.ValueTuple{System.String,System.Int32,System.Boolean,System.String})">
+            <summary>
+            Validerer og parser A/B fra tekstfelter i forhold til den valgte operation.
+            </summary>
+            <param name="def">Operationsdefinition.</param>
+            <returns>Par af (A, B). For unære operationer sættes B = 0.0.</returns>
+        </member>
+        <member name="T:Lommeregner.ApplicationConfiguration">
+            <summary>
+             Bootstrap the application configuration.
+            </summary>
+        </member>
+        <member name="M:Lommeregner.ApplicationConfiguration.Initialize">
+            <summary>
+             Bootstrap the application as follows:
+             <code>
+             global::System.Windows.Forms.Application.EnableVisualStyles();
+             global::System.Windows.Forms.Application.SetCompatibleTextRenderingDefault(false);
+             global::System.Windows.Forms.Application.SetHighDpiMode(HighDpiMode.SystemAware);
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,29 @@
+{
+  "metadata": [
+    {
+      "src": [
+        { "files": [ "**/*.csproj" ], "exclude": [ "**/bin/**", "**/obj/**" ] }
+      ],
+      "dest": "api"
+    }
+  ],
+  "build": {
+    "content": [
+      { "files": [ "api/**.yml", "api/index.md" ] },
+      { "files": [ "articles/**.md", "index.md", "toc.yml" ], "exclude": [ "bin/**", "obj/**" ] }
+    ],
+    "resource": [
+      { "files": [ "images/**" ] }
+    ],
+    "xrefService": [ "https://xref.docs.microsoft.com/query?uid={uid}" ],
+    "globalMetadata": {
+      "_appTitle": "Lommeregner",
+      "_appFaviconPath": "images/favicon.ico",
+      "_enableSearch": "true"
+    },
+    "template": [
+      "default"
+    ],
+    "dest": "_site"
+  }
+}

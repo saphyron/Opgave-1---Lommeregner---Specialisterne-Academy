@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lommeregner.Windows_GUI
+  commentId: N:Lommeregner.Windows_GUI
+  id: Lommeregner.Windows_GUI
+  children:
+  - Lommeregner.Windows_GUI.MainGUI
+  langs:
+  - csharp
+  - vb
+  name: Lommeregner.Windows_GUI
+  nameWithType: Lommeregner.Windows_GUI
+  fullName: Lommeregner.Windows_GUI
+  type: Namespace
+  assemblies:
+  - Lommeregner
+references:
+- uid: Lommeregner.Windows_GUI.MainGUI
+  commentId: T:Lommeregner.Windows_GUI.MainGUI
+  href: Lommeregner.Windows_GUI.MainGUI.html
+  name: MainGUI
+  nameWithType: MainGUI
+  fullName: Lommeregner.Windows_GUI.MainGUI

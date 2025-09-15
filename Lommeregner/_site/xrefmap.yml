@@ -1,0 +1,311 @@
+### YamlMime:XRefMap
+sorted: true
+references:
+- uid: Lommeregner
+  name: Lommeregner
+  href: api/Lommeregner.html
+  commentId: N:Lommeregner
+  fullName: Lommeregner
+  nameWithType: Lommeregner
+- uid: Lommeregner.Calculator
+  name: Calculator
+  href: api/Lommeregner.Calculator.html
+  commentId: T:Lommeregner.Calculator
+  fullName: Lommeregner.Calculator
+  nameWithType: Calculator
+- uid: Lommeregner.Calculator.Add(System.Double,System.Double)
+  name: Add(double, double)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Add_System_Double_System_Double_
+  commentId: M:Lommeregner.Calculator.Add(System.Double,System.Double)
+  name.vb: Add(Double, Double)
+  fullName: Lommeregner.Calculator.Add(double, double)
+  fullName.vb: Lommeregner.Calculator.Add(Double, Double)
+  nameWithType: Calculator.Add(double, double)
+  nameWithType.vb: Calculator.Add(Double, Double)
+- uid: Lommeregner.Calculator.Add*
+  name: Add
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Add_
+  commentId: Overload:Lommeregner.Calculator.Add
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.Add
+  nameWithType: Calculator.Add
+- uid: Lommeregner.Calculator.Cosine(System.Double)
+  name: Cosine(double)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Cosine_System_Double_
+  commentId: M:Lommeregner.Calculator.Cosine(System.Double)
+  name.vb: Cosine(Double)
+  fullName: Lommeregner.Calculator.Cosine(double)
+  fullName.vb: Lommeregner.Calculator.Cosine(Double)
+  nameWithType: Calculator.Cosine(double)
+  nameWithType.vb: Calculator.Cosine(Double)
+- uid: Lommeregner.Calculator.Cosine*
+  name: Cosine
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Cosine_
+  commentId: Overload:Lommeregner.Calculator.Cosine
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.Cosine
+  nameWithType: Calculator.Cosine
+- uid: Lommeregner.Calculator.Divide(System.Double,System.Double)
+  name: Divide(double, double)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Divide_System_Double_System_Double_
+  commentId: M:Lommeregner.Calculator.Divide(System.Double,System.Double)
+  name.vb: Divide(Double, Double)
+  fullName: Lommeregner.Calculator.Divide(double, double)
+  fullName.vb: Lommeregner.Calculator.Divide(Double, Double)
+  nameWithType: Calculator.Divide(double, double)
+  nameWithType.vb: Calculator.Divide(Double, Double)
+- uid: Lommeregner.Calculator.Divide*
+  name: Divide
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Divide_
+  commentId: Overload:Lommeregner.Calculator.Divide
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.Divide
+  nameWithType: Calculator.Divide
+- uid: Lommeregner.Calculator.Factorial(System.Int32)
+  name: Factorial(int)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Factorial_System_Int32_
+  commentId: M:Lommeregner.Calculator.Factorial(System.Int32)
+  name.vb: Factorial(Integer)
+  fullName: Lommeregner.Calculator.Factorial(int)
+  fullName.vb: Lommeregner.Calculator.Factorial(Integer)
+  nameWithType: Calculator.Factorial(int)
+  nameWithType.vb: Calculator.Factorial(Integer)
+- uid: Lommeregner.Calculator.Factorial*
+  name: Factorial
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Factorial_
+  commentId: Overload:Lommeregner.Calculator.Factorial
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.Factorial
+  nameWithType: Calculator.Factorial
+- uid: Lommeregner.Calculator.Logarithm(System.Double,System.Double)
+  name: Logarithm(double, double)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Logarithm_System_Double_System_Double_
+  commentId: M:Lommeregner.Calculator.Logarithm(System.Double,System.Double)
+  name.vb: Logarithm(Double, Double)
+  fullName: Lommeregner.Calculator.Logarithm(double, double)
+  fullName.vb: Lommeregner.Calculator.Logarithm(Double, Double)
+  nameWithType: Calculator.Logarithm(double, double)
+  nameWithType.vb: Calculator.Logarithm(Double, Double)
+- uid: Lommeregner.Calculator.Logarithm*
+  name: Logarithm
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Logarithm_
+  commentId: Overload:Lommeregner.Calculator.Logarithm
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.Logarithm
+  nameWithType: Calculator.Logarithm
+- uid: Lommeregner.Calculator.Modulus(System.Double,System.Double)
+  name: Modulus(double, double)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Modulus_System_Double_System_Double_
+  commentId: M:Lommeregner.Calculator.Modulus(System.Double,System.Double)
+  name.vb: Modulus(Double, Double)
+  fullName: Lommeregner.Calculator.Modulus(double, double)
+  fullName.vb: Lommeregner.Calculator.Modulus(Double, Double)
+  nameWithType: Calculator.Modulus(double, double)
+  nameWithType.vb: Calculator.Modulus(Double, Double)
+- uid: Lommeregner.Calculator.Modulus*
+  name: Modulus
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Modulus_
+  commentId: Overload:Lommeregner.Calculator.Modulus
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.Modulus
+  nameWithType: Calculator.Modulus
+- uid: Lommeregner.Calculator.Multiply(System.Double,System.Double)
+  name: Multiply(double, double)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Multiply_System_Double_System_Double_
+  commentId: M:Lommeregner.Calculator.Multiply(System.Double,System.Double)
+  name.vb: Multiply(Double, Double)
+  fullName: Lommeregner.Calculator.Multiply(double, double)
+  fullName.vb: Lommeregner.Calculator.Multiply(Double, Double)
+  nameWithType: Calculator.Multiply(double, double)
+  nameWithType.vb: Calculator.Multiply(Double, Double)
+- uid: Lommeregner.Calculator.Multiply*
+  name: Multiply
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Multiply_
+  commentId: Overload:Lommeregner.Calculator.Multiply
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.Multiply
+  nameWithType: Calculator.Multiply
+- uid: Lommeregner.Calculator.NaturalLogarithm(System.Double)
+  name: NaturalLogarithm(double)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_NaturalLogarithm_System_Double_
+  commentId: M:Lommeregner.Calculator.NaturalLogarithm(System.Double)
+  name.vb: NaturalLogarithm(Double)
+  fullName: Lommeregner.Calculator.NaturalLogarithm(double)
+  fullName.vb: Lommeregner.Calculator.NaturalLogarithm(Double)
+  nameWithType: Calculator.NaturalLogarithm(double)
+  nameWithType.vb: Calculator.NaturalLogarithm(Double)
+- uid: Lommeregner.Calculator.NaturalLogarithm*
+  name: NaturalLogarithm
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_NaturalLogarithm_
+  commentId: Overload:Lommeregner.Calculator.NaturalLogarithm
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.NaturalLogarithm
+  nameWithType: Calculator.NaturalLogarithm
+- uid: Lommeregner.Calculator.Percentage(System.Double,System.Double)
+  name: Percentage(double, double)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Percentage_System_Double_System_Double_
+  commentId: M:Lommeregner.Calculator.Percentage(System.Double,System.Double)
+  name.vb: Percentage(Double, Double)
+  fullName: Lommeregner.Calculator.Percentage(double, double)
+  fullName.vb: Lommeregner.Calculator.Percentage(Double, Double)
+  nameWithType: Calculator.Percentage(double, double)
+  nameWithType.vb: Calculator.Percentage(Double, Double)
+- uid: Lommeregner.Calculator.Percentage*
+  name: Percentage
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Percentage_
+  commentId: Overload:Lommeregner.Calculator.Percentage
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.Percentage
+  nameWithType: Calculator.Percentage
+- uid: Lommeregner.Calculator.Power(System.Double,System.Double)
+  name: Power(double, double)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Power_System_Double_System_Double_
+  commentId: M:Lommeregner.Calculator.Power(System.Double,System.Double)
+  name.vb: Power(Double, Double)
+  fullName: Lommeregner.Calculator.Power(double, double)
+  fullName.vb: Lommeregner.Calculator.Power(Double, Double)
+  nameWithType: Calculator.Power(double, double)
+  nameWithType.vb: Calculator.Power(Double, Double)
+- uid: Lommeregner.Calculator.Power*
+  name: Power
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Power_
+  commentId: Overload:Lommeregner.Calculator.Power
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.Power
+  nameWithType: Calculator.Power
+- uid: Lommeregner.Calculator.Sine(System.Double)
+  name: Sine(double)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Sine_System_Double_
+  commentId: M:Lommeregner.Calculator.Sine(System.Double)
+  name.vb: Sine(Double)
+  fullName: Lommeregner.Calculator.Sine(double)
+  fullName.vb: Lommeregner.Calculator.Sine(Double)
+  nameWithType: Calculator.Sine(double)
+  nameWithType.vb: Calculator.Sine(Double)
+- uid: Lommeregner.Calculator.Sine*
+  name: Sine
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Sine_
+  commentId: Overload:Lommeregner.Calculator.Sine
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.Sine
+  nameWithType: Calculator.Sine
+- uid: Lommeregner.Calculator.SquareRoot(System.Double)
+  name: SquareRoot(double)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_SquareRoot_System_Double_
+  commentId: M:Lommeregner.Calculator.SquareRoot(System.Double)
+  name.vb: SquareRoot(Double)
+  fullName: Lommeregner.Calculator.SquareRoot(double)
+  fullName.vb: Lommeregner.Calculator.SquareRoot(Double)
+  nameWithType: Calculator.SquareRoot(double)
+  nameWithType.vb: Calculator.SquareRoot(Double)
+- uid: Lommeregner.Calculator.SquareRoot*
+  name: SquareRoot
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_SquareRoot_
+  commentId: Overload:Lommeregner.Calculator.SquareRoot
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.SquareRoot
+  nameWithType: Calculator.SquareRoot
+- uid: Lommeregner.Calculator.Subtract(System.Double,System.Double)
+  name: Subtract(double, double)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Subtract_System_Double_System_Double_
+  commentId: M:Lommeregner.Calculator.Subtract(System.Double,System.Double)
+  name.vb: Subtract(Double, Double)
+  fullName: Lommeregner.Calculator.Subtract(double, double)
+  fullName.vb: Lommeregner.Calculator.Subtract(Double, Double)
+  nameWithType: Calculator.Subtract(double, double)
+  nameWithType.vb: Calculator.Subtract(Double, Double)
+- uid: Lommeregner.Calculator.Subtract*
+  name: Subtract
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Subtract_
+  commentId: Overload:Lommeregner.Calculator.Subtract
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.Subtract
+  nameWithType: Calculator.Subtract
+- uid: Lommeregner.Calculator.Tangent(System.Double)
+  name: Tangent(double)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Tangent_System_Double_
+  commentId: M:Lommeregner.Calculator.Tangent(System.Double)
+  name.vb: Tangent(Double)
+  fullName: Lommeregner.Calculator.Tangent(double)
+  fullName.vb: Lommeregner.Calculator.Tangent(Double)
+  nameWithType: Calculator.Tangent(double)
+  nameWithType.vb: Calculator.Tangent(Double)
+- uid: Lommeregner.Calculator.Tangent*
+  name: Tangent
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_Tangent_
+  commentId: Overload:Lommeregner.Calculator.Tangent
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.Tangent
+  nameWithType: Calculator.Tangent
+- uid: Lommeregner.Calculator.execution(System.String,System.Double,System.Double)
+  name: execution(string, double, double)
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_execution_System_String_System_Double_System_Double_
+  commentId: M:Lommeregner.Calculator.execution(System.String,System.Double,System.Double)
+  name.vb: execution(String, Double, Double)
+  fullName: Lommeregner.Calculator.execution(string, double, double)
+  fullName.vb: Lommeregner.Calculator.execution(String, Double, Double)
+  nameWithType: Calculator.execution(string, double, double)
+  nameWithType.vb: Calculator.execution(String, Double, Double)
+- uid: Lommeregner.Calculator.execution*
+  name: execution
+  href: api/Lommeregner.Calculator.html#Lommeregner_Calculator_execution_
+  commentId: Overload:Lommeregner.Calculator.execution
+  isSpec: "True"
+  fullName: Lommeregner.Calculator.execution
+  nameWithType: Calculator.execution
+- uid: Lommeregner.Konsol_App
+  name: Lommeregner.Konsol_App
+  href: api/Lommeregner.Konsol_App.html
+  commentId: N:Lommeregner.Konsol_App
+  fullName: Lommeregner.Konsol_App
+  nameWithType: Lommeregner.Konsol_App
+- uid: Lommeregner.Konsol_App.KonsolApp
+  name: KonsolApp
+  href: api/Lommeregner.Konsol_App.KonsolApp.html
+  commentId: T:Lommeregner.Konsol_App.KonsolApp
+  fullName: Lommeregner.Konsol_App.KonsolApp
+  nameWithType: KonsolApp
+- uid: Lommeregner.Konsol_App.KonsolApp.Run
+  name: Run()
+  href: api/Lommeregner.Konsol_App.KonsolApp.html#Lommeregner_Konsol_App_KonsolApp_Run
+  commentId: M:Lommeregner.Konsol_App.KonsolApp.Run
+  fullName: Lommeregner.Konsol_App.KonsolApp.Run()
+  nameWithType: KonsolApp.Run()
+- uid: Lommeregner.Konsol_App.KonsolApp.Run*
+  name: Run
+  href: api/Lommeregner.Konsol_App.KonsolApp.html#Lommeregner_Konsol_App_KonsolApp_Run_
+  commentId: Overload:Lommeregner.Konsol_App.KonsolApp.Run
+  isSpec: "True"
+  fullName: Lommeregner.Konsol_App.KonsolApp.Run
+  nameWithType: KonsolApp.Run
+- uid: Lommeregner.Windows_GUI
+  name: Lommeregner.Windows_GUI
+  href: api/Lommeregner.Windows_GUI.html
+  commentId: N:Lommeregner.Windows_GUI
+  fullName: Lommeregner.Windows_GUI
+  nameWithType: Lommeregner.Windows_GUI
+- uid: Lommeregner.Windows_GUI.MainGUI
+  name: MainGUI
+  href: api/Lommeregner.Windows_GUI.MainGUI.html
+  commentId: T:Lommeregner.Windows_GUI.MainGUI
+  fullName: Lommeregner.Windows_GUI.MainGUI
+  nameWithType: MainGUI
+- uid: Lommeregner.Windows_GUI.MainGUI.#ctor
+  name: MainGUI()
+  href: api/Lommeregner.Windows_GUI.MainGUI.html#Lommeregner_Windows_GUI_MainGUI__ctor
+  commentId: M:Lommeregner.Windows_GUI.MainGUI.#ctor
+  name.vb: New()
+  fullName: Lommeregner.Windows_GUI.MainGUI.MainGUI()
+  fullName.vb: Lommeregner.Windows_GUI.MainGUI.New()
+  nameWithType: MainGUI.MainGUI()
+  nameWithType.vb: MainGUI.New()
+- uid: Lommeregner.Windows_GUI.MainGUI.#ctor*
+  name: MainGUI
+  href: api/Lommeregner.Windows_GUI.MainGUI.html#Lommeregner_Windows_GUI_MainGUI__ctor_
+  commentId: Overload:Lommeregner.Windows_GUI.MainGUI.#ctor
+  isSpec: "True"
+  name.vb: New
+  fullName: Lommeregner.Windows_GUI.MainGUI.MainGUI
+  fullName.vb: Lommeregner.Windows_GUI.MainGUI.New
+  nameWithType: MainGUI.MainGUI
+  nameWithType.vb: MainGUI.New

@@ -1,0 +1,23 @@
+### YamlMime:ManagedReference
+items:
+- uid: Lommeregner.Konsol_App
+  commentId: N:Lommeregner.Konsol_App
+  id: Lommeregner.Konsol_App
+  children:
+  - Lommeregner.Konsol_App.KonsolApp
+  langs:
+  - csharp
+  - vb
+  name: Lommeregner.Konsol_App
+  nameWithType: Lommeregner.Konsol_App
+  fullName: Lommeregner.Konsol_App
+  type: Namespace
+  assemblies:
+  - Lommeregner
+references:
+- uid: Lommeregner.Konsol_App.KonsolApp
+  commentId: T:Lommeregner.Konsol_App.KonsolApp
+  href: Lommeregner.Konsol_App.KonsolApp.html
+  name: KonsolApp
+  nameWithType: KonsolApp
+  fullName: Lommeregner.Konsol_App.KonsolApp

@@ -1,0 +1,16 @@
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\bin\Debug\net8.0-windows\Lommeregner.exe
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\bin\Debug\net8.0-windows\Lommeregner.deps.json
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\bin\Debug\net8.0-windows\Lommeregner.runtimeconfig.json
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\bin\Debug\net8.0-windows\Lommeregner.dll
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\bin\Debug\net8.0-windows\Lommeregner.pdb
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\bin\Debug\net8.0-windows\Lommeregner.xml
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\obj\Debug\net8.0-windows\Lommeregner.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\obj\Debug\net8.0-windows\Lommeregner.AssemblyInfoInputs.cache
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\obj\Debug\net8.0-windows\Lommeregner.AssemblyInfo.cs
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\obj\Debug\net8.0-windows\Lommeregner.csproj.CoreCompileInputs.cache
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\obj\Debug\net8.0-windows\Lommeregner.dll
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\obj\Debug\net8.0-windows\refint\Lommeregner.dll
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\obj\Debug\net8.0-windows\Lommeregner.xml
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\obj\Debug\net8.0-windows\Lommeregner.pdb
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\obj\Debug\net8.0-windows\Lommeregner.genruntimeconfig.cache
+C:\Users\JohnGrandtMarkvardHø\Desktop\Opgaver\Uge 1\Opgave 1 - Lommeregner\Lommeregner\obj\Debug\net8.0-windows\ref\Lommeregner.dll
