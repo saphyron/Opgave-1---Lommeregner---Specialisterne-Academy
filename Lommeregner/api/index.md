@@ -1,2 +1,3 @@
 # API Reference
-Automatisk genererede typer og medlemmer.
+
+Automatisk genereret API-dokumentation for projektet.
